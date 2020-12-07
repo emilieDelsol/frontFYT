@@ -202,7 +202,7 @@ function TournamentDetails() {
             <div className="description">
               Description of the tournament: {tournament.description}
             </div>
-            <div className="location">Location: {tournament.tournamentLocation}</div>
+            <div className="location">Location: {tournament.tournamentLocation} </div>
           </div>
         </div>
       </div>
