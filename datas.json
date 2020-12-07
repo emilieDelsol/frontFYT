@@ -1,0 +1,42 @@
+[Tournaments
+    {
+        "TournamentId":1 ,
+        "TournamentName": "my name",
+        "TounamentDate": "" ,
+        "Price": 10,
+        "Prize": 1400,
+      "TournamentLocation": "string",
+      "TournamentType": "string",
+      "Description": "string",
+        "Participants": 250,
+        "Champion": "string",
+        "Image": "url",
+        "Video": "url" 
+
+    },
+
+]
+Knights
+[
+    {
+        "Knightd": 1,
+        "KnightName": "nom",
+        "Age":30 ,
+        "Victories": 3,
+        "Defeats": 1 ,
+        "Badge": url ,
+      "Weapons": "sword, axe, armor",
+      "Armors": "Plate armor,
+        "Mount": true,
+        "MountType": "horse" ,
+        "MountName": "tornado",
+        "Moto": "Que trépasse si je faiblis !",
+        "Avatar": "url de l'image" ,
+        "Region":"name of region" ,
+        "Pigeon": "@pigeon.com",
+        "Alive": true,
+        "Ranking":10 ,
+
+    },
+
+]

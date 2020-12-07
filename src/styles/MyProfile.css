@@ -1,0 +1,27 @@
+.profile-info-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container {
+  padding: 20px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+.font-size-text{
+  font-size: 3vh;
+}
+
+.font-size-title{
+font-size: 5vh;
+}
+
+@media screen and (max-width:640px){
+  .profile-info-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
