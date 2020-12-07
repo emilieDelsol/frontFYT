@@ -181,7 +181,7 @@ function TournamentDetails() {
 
   useEffect(() =>
     tournamentsArr.map(item =>
-      item.tournamentId == id ? setTournament(item) : [])
+      item.tournamentId === id ? setTournament(item) : [])
   )
 
   return (
