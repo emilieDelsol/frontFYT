@@ -34,9 +34,9 @@
     margin-bottom: 5%;
 }
 
-.description{
+.description, .text{
     word-wrap: break-word;
-    /* font-: 6vh; */
+    font-size: 3.5vh; 
 
     margin: auto;
     width: 80%;
@@ -46,26 +46,3 @@
     height:30vh;
 }
 
-/* .location{
-    font-size: 6vh;
-} */
-
-/* .tournament-card{
-    display: flex;
-    flex-direction: column;
-    width: 100;
-   
-}
-.tournament-img{
-    height: 20vh;
-    width: 20vw;
-}
-.tournament-info{
-    display:flex;
-    flex-direction: row;
-}
-
-/* div.tournament-card {
-    height: 100%;
-   }
-    */ 
