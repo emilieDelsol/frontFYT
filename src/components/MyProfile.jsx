@@ -46,7 +46,7 @@ function MyProfile() {
           return (
             <div>
               <div className="header-profile">
-                <img className="avatar-list" src={item.avatar} />
+                <img className="avatar-list" src={item.avatar} alt="avatar"/>
                 <h3>{item.knightName}</h3>
                 <div className="title">{item.age}</div>
                 <div className="title">{item.alive ? "Alive" : "Dead"}</div>

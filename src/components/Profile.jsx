@@ -664,7 +664,7 @@ function Profile() {
 
   useEffect(() => {
     knightsArr.map(knight =>
-      knight.knightId == id ? setKnight(knight) : []
+      knight.knightId === id ? setKnight(knight) : []
     )
   }, [id])
 
@@ -701,8 +701,8 @@ function Profile() {
           <div className="text-card">Rank: {knight.ranking}</div>
           <div className="text-card">Victories: {knight.victories}</div>
           <div className="text-card">Defeats: {knight.defeats}</div>
-          <img className="icon-stats" src={knight.rankingIcons} />
-          <img className="icon-stats" src={knight.successIcons} />
+          <img className="icon-stats" src={knight.rankingIcons} alt="rank" />
+          <img className="icon-stats" src={knight.successIcons} alt="success" />
           {/* <div>
             <img src={knight.badge} alt="badge" />
           </div> */}

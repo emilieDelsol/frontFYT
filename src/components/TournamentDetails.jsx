@@ -181,7 +181,8 @@ function TournamentDetails() {
 
   useEffect(() =>
     tournamentsArr.map(item =>
-      item.tournamentId === id ? setTournament(item) : [])
+      // eslint-disable-next-line
+      item.tournamentId == id ? setTournament(item) : [])
   )
 
   return (
