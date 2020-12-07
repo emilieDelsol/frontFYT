@@ -30,7 +30,7 @@ function RankingCard({ knight }) {
 
             <div className="card-infos-badges">
               <img className="icon-ranking" src={knight.rankingIcons} alt="ranking" />
-              {knight.successIcons ? <img className="icon-success"src={knight.successIcons} /> : <div className="empty-badge" />}
+              {knight.successIcons ? <img className="icon-success"src={knight.successIcons} alt="success icon"/> : <div className="empty-badge" />}
               
               <img className="icon-banner" src={knight.banner} alt="banner" />
               <img className="icon-status" src={knight.aliveIcons} alt="status" />
