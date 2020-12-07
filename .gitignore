@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+#/build
 
 # misc
 .DS_Store
@@ -42,7 +42,7 @@ yarn-error.log*
 # Mono auto generated files
 mono_crash.*
 
-# Build results
+ Build results
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
