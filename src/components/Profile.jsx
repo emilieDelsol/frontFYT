@@ -664,7 +664,8 @@ function Profile() {
 
   useEffect(() => {
     knightsArr.map(knight =>
-      knight.knightId === id ? setKnight(knight) : []
+      // eslint-disable-next-line
+      knight.knightId == id ? setKnight(knight) : []
     )
   }, [id])
 
